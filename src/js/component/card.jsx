@@ -3,19 +3,19 @@ import React from "react";
 // import PropType from "prop-types";
 
 
-const CardComponent = () =>{
+const Card = ({cardTitle, cardText, cardButtonLabel}) =>{
     return (
         <div className="card">
             <img src="https://via.placeholder.com/500x325" className="card-img-top" alt="..."/>
             <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
+                <h5 className="card-title">{cardTitle}</h5>
+                <p className="card-text">{cardText}</p>
+                <a href="#" className="btn btn-primary">{cardButtonLabel}</a>
             </div>
         </div>
     );
 };
-export default CardComponent;
+export default Card;
 
 {/* // const BootstrapCard = (props) => {
 // 	// 1) replace the hard-coded image, description, link, etc. With their property variable.

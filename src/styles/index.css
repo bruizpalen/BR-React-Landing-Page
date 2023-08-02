@@ -1,4 +1,18 @@
+.jumbotron{
+    background-color: grey;
+    align-items:start;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    margin: 1rem
+}
 
+.footer{
+    height: 3rem; 
+    background-color: grey; 
+    justify-content: center; 
+    align-items: center
+}
 /* 
 
     You can write your own styles here...
@@ -7,6 +21,6 @@
     ...Or you can use the import command to include 
     other sylesheets into your bunde as well, e.j:
     
-    import 'relative/path/to/stylesheet.scss';
+    import relative/path/to/stylesheet.scss;
 
 */

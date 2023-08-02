@@ -2,11 +2,12 @@ import React from "react";
 // import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 
-const Jumbotron = ({jumbotronStyle, title, description, secondDescription, buttonLabel}) => {
-    const defaultStyle = {      };
-    const mergedStyles = { ...defaultStyle, ...jumbotronStyle };
+const Jumbotron = ({title, description, secondDescription, buttonLabel}) => {
+    // const defaultStyle = {      };
+    // const mergedStyles = { ...defaultStyle, ...jumbotronStyle };
       return (
-        <div className="jumbotron" style={mergedStyles}>
+        // <div className="jumbotron" style={mergedStyles}>
+        <div className="jumbotron">
         <h1 className="display-4">{title}</h1>
         <p className="lead">{description}</p>
         <hr className="my-4"/>

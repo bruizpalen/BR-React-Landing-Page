@@ -1,17 +1,17 @@
-import React from 'react'
+import React from 'react';
 
 
-const FooterComponent = ({footerStyle}) =>{
+const Footer = () =>{
 
     return (
-            <div className="text-center d-flex" style={footerStyle}>
+            <div className="footer text-center d-flex">
                 © 2020 Copyright
             </div>
 
     );
 };
 
-export default FooterComponent;
+export default Footer;
 
 {/* <div class="container my-5">
             <footer className="bg-dark">
